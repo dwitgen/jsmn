@@ -1,7 +1,7 @@
-idf_component_register(
-    SRCS "jsmn.c"
-    INCLUDE_DIRS "include"
-)
+//idf_component_register(
+//    SRCS "jsmn.c"
+//    INCLUDE_DIRS "include"
+//)
 
 set_target_properties(${COMPONENT_LIB} PROPERTIES
     ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/.pioenvs/homeassist03"
